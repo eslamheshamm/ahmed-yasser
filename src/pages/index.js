@@ -83,7 +83,7 @@ const IndexPage = () => {
 								src="../images/right-arrow.svg"
 								alt="more about me"
 								placeholder="blurred"
-								layout="constrained"
+								layout="constrained "
 							/>
 						</Link>
 					</h2>

@@ -1,0 +1,24 @@
+@font-face {
+	font-family: "SF-Light";
+	font-style: normal;
+	font-weight: normal;
+	src: url("./fonts/SF-Pro-Display-Light.woff");
+}
+@font-face {
+	font-family: "SF-Regular";
+	font-style: normal;
+	font-weight: normal;
+	src: url("./fonts/SF-Pro-Display-Regular.woff");
+}
+@font-face {
+	font-family: "SF-Semibold";
+	font-style: normal;
+	font-weight: normal;
+	src: url("./fonts/SF-Pro-Display-Semibold.woff");
+}
+@font-face {
+	font-family: "SF-Bold";
+	font-style: normal;
+	font-weight: normal;
+	src: url("./fonts/SF-Pro-Display-Bold.woff");
+}

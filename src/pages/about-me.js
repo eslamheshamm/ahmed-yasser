@@ -9,22 +9,24 @@ const EmptyDot = () => (
 const AboutMe = () => {
 	return (
 		<main>
-			<section className="flex flex-col items-start">
-				<Link to="/" className="mx-12 mt-8 mb-4">
-					<svg
-						width="36"
-						height="59"
-						viewBox="0 0 36 59"
-						fill="none"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<path
-							d="M27 57.5508C28.0588 58.5169 29.25 59 30.6728 59C33.6176 59 36 56.7134 36 53.8794C36 52.4623 35.3713 51.1419 34.2794 50.0791L12.4743 29.4678L34.2794 8.88865C35.4044 7.82587 36 6.50546 36 5.12063C36 2.28657 33.6176 2.34522e-06 30.6728 2.47395e-06C29.2169 2.53759e-06 28.0257 0.483081 27 1.44924L1.98529 25.2811C0.661763 26.5371 0.0330869 27.8897 -1.28949e-06 29.5C-1.22051e-06 31.0781 0.628675 32.3985 1.98529 33.7189L27 57.5508Z"
-							fill="black"
-						/>
-					</svg>
-				</Link>
-				<article className="py-8 pl-16 pr-28 w-6/12 shadow-md  m-12">
+			<section className="">
+				<div className="m-12 flex">
+					<Link to="/">
+						<svg
+							width="36"
+							height="59"
+							viewBox="0 0 36 59"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M27 57.5508C28.0588 58.5169 29.25 59 30.6728 59C33.6176 59 36 56.7134 36 53.8794C36 52.4623 35.3713 51.1419 34.2794 50.0791L12.4743 29.4678L34.2794 8.88865C35.4044 7.82587 36 6.50546 36 5.12063C36 2.28657 33.6176 2.34522e-06 30.6728 2.47395e-06C29.2169 2.53759e-06 28.0257 0.483081 27 1.44924L1.98529 25.2811C0.661763 26.5371 0.0330869 27.8897 -1.28949e-06 29.5C-1.22051e-06 31.0781 0.628675 32.3985 1.98529 33.7189L27 57.5508Z"
+								fill="black"
+							/>
+						</svg>
+					</Link>
+				</div>
+				<article className="md:py-8 md:pl-16 p-8 w-11/12  md:pr-28 mx-auto md:mx-12 md:w-9/12 lg:w-6-12 shadow-md  my-12">
 					<h2 className="font-SFBold text-4xl mb-8">Development Skills</h2>
 					<ul className="font-SFRegular text-3xl">
 						<li className="flex justify-between items-center">
@@ -109,7 +111,7 @@ const AboutMe = () => {
 						</li>
 					</ul>
 				</article>
-				<article className="py-8 pl-16 pr-28 w-6/12 shadow-md  m-12">
+				<article className="md:py-8 md:pl-16 p-8 w-11/12  md:pr-28 mx-auto md:mx-12 md:w-9/12 lg:w-6-12 shadow-md  my-12">
 					<h2 className="font-SFBold text-4xl mb-8">Development Skills</h2>
 					<ul className="font-SFRegular text-3xl">
 						<li className="flex justify-between items-center">
@@ -154,7 +156,7 @@ const AboutMe = () => {
 						</li>
 					</ul>
 				</article>
-				<article className="py-8 pl-16 pr-28 w-6/12 shadow-md  m-12">
+				<article className="md:py-8 md:pl-16 p-8 w-11/12  md:pr-28 mx-auto md:mx-12 md:w-9/12 lg:w-6-12 shadow-md  my-12">
 					<h2 className="font-SFBold text-4xl mb-8">Soft Skills</h2>
 					<ul className="font-SFRegular text-3xl">
 						<li className="flex justify-between items-center">
@@ -171,7 +173,7 @@ const AboutMe = () => {
 						</li>
 					</ul>
 				</article>
-				<article className="py-8 pl-16 pr-28 w-6/12 shadow-md  m-12">
+				<article className="md:py-8 md:pl-16 p-8 w-11/12  md:pr-28 mx-auto md:mx-12 md:w-9/12 lg:w-6-12 shadow-md  my-12">
 					<h2 className="font-SFBold text-4xl mb-8">More About me</h2>
 					<ul className="font-SFRegular text-3xl">
 						<li className="flex justify-between items-center">
